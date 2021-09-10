@@ -53,3 +53,7 @@ a{
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+botton{
+    cursor: pointer;
+}

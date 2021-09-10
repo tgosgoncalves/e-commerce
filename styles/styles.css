@@ -38,4 +38,10 @@ display: flex;
     align-items: center;
     border-radius: 7px;
     border: none;
+    transition-duration: 300ms;
+        
+}
+.botton:hover{
+    background-color: transparent;
+    color: #6c63ff;
 }
