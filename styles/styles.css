@@ -26,3 +26,16 @@ body{
 .header{
 display: flex;
 }
+
+.botton{
+    background-color: #6c63ff;
+    color: #ffffff;
+    padding: 17px 33px;
+    font-size: 20px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+}
