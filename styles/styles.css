@@ -1,3 +1,28 @@
 body{
     background-color: #302D47;
+    font-family: 'Poppins', sans-serif;
+    }
+
+.logo{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo-tittle{
+    font-size: 51px;
+    font-weight: 900;
+}
+
+.log-sub-tittle{
+    font-size: 11px;
+    color: #bfbfbf;
+}
+
+.bemvindo{
+    color: #bfbfbf;
+    font-size: 20px;
+}
+
+.header{
+display: flex;
 }
