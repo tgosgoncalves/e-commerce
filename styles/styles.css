@@ -1,11 +1,17 @@
 body{
     background-color: #302D47;
     font-family: 'Poppins', sans-serif;
+    margin: o auto;
     }
+
+.container-center{
+    max-width: 1366px;
+}    
 
 .logo{
     color: #ffffff;
     font-family: 'Lato', sans-serif;
+    margin-right: 45px;
 }
 
 .logo-tittle{
@@ -24,11 +30,14 @@ body{
 }
 
 .header{
-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
 }
 
 .botton{
     background-color: #6c63ff;
+    border: 1px solid #6c63FF;
     color: #ffffff;
     padding: 17px 33px;
     font-size: 20px;
@@ -37,11 +46,29 @@ display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 7px;
-    border: none;
-    transition-duration: 300ms;
-        
+    transition-duration: 250ms;
+    
 }
-.botton:hover{
+
+.botton--purple:hover{
     background-color: transparent;
     color: #6c63ff;
+}
+
+.botton--red{
+    background-color: #ee4c4c;
+    border: 1px solid #ee4c4c;    
+}
+.botton--red:hover{
+    background-color: transparent;
+    color: #ee4c4c;
+}
+
+.botton-header{
+    display: flex;
+}
+
+.logo-wraper{
+    display: flex;
+    align-items: center;
 }
